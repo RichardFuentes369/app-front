@@ -7,6 +7,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 
+import { NavigationUserComponent } from '../navigation-user/navigation-user.component';
+import { SectionNavbarUserComponent } from '../section-navbar-user/section-navbar-user.component';
+
 @Component({
   selector: 'app-dashboard-user',
   templateUrl: './dashboard-user.component.html',
@@ -17,7 +20,9 @@ import { MatCardModule } from '@angular/material/card';
     MatMenuModule,
     MatIconModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    NavigationUserComponent,
+    SectionNavbarUserComponent,
   ]
 })
 export class DashboardUserComponent {
