@@ -7,7 +7,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 
-import { NavigationUserComponent } from '../navigation-user/navigation-user.component';
+import { BannerUserComponent } from '../banner-user/banner-user.component';
 import { SectionNavbarUserComponent } from '../section-navbar-user/section-navbar-user.component';
 
 @Component({
@@ -21,7 +21,7 @@ import { SectionNavbarUserComponent } from '../section-navbar-user/section-navba
     MatIconModule,
     MatButtonModule,
     MatCardModule,
-    NavigationUserComponent,
+    BannerUserComponent,
     SectionNavbarUserComponent,
   ]
 })

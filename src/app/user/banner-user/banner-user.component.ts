@@ -11,9 +11,9 @@ import { map, shareReplay } from 'rxjs/operators';
 import { DashboardUserComponent } from '../dashboard-user/dashboard-user.component';
 
 @Component({
-  selector: 'app-navigation-user',
-  templateUrl: './navigation-user.component.html',
-  styleUrls: ['./navigation-user.component.scss'],
+  selector: 'app-banner-user',
+  templateUrl: './banner-user.component.html',
+  styleUrls: ['./banner-user.component.scss'],
   standalone: true,
   imports: [
     MatToolbarModule,
@@ -25,7 +25,7 @@ import { DashboardUserComponent } from '../dashboard-user/dashboard-user.compone
     DashboardUserComponent,
   ]
 })
-export class NavigationUserComponent {
+export class BannerUserComponent {
   private breakpointObserver = inject(BreakpointObserver);
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)

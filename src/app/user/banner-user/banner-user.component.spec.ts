@@ -1,11 +1,11 @@
 import { waitForAsync, ComponentFixture, TestBed } from '@angular/core/testing';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
-import { NavigationUserComponent } from './navigation-user.component';
+import { BannerUserComponent } from './banner-user.component';
 
-describe('NavigationUserComponent', () => {
-  let component: NavigationUserComponent;
-  let fixture: ComponentFixture<NavigationUserComponent>;
+describe('BannerUserComponent', () => {
+  let component: BannerUserComponent;
+  let fixture: ComponentFixture<BannerUserComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
@@ -14,7 +14,7 @@ describe('NavigationUserComponent', () => {
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NavigationUserComponent);
+    fixture = TestBed.createComponent(BannerUserComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

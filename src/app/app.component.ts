@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 
 import { NavigationAdminComponent } from './admin/navigation-admin/navigation-admin.component';
-import { NavigationUserComponent } from './user/navigation-user/navigation-user.component';
+import { BannerUserComponent } from './user/banner-user/banner-user.component';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +12,7 @@ import { NavigationUserComponent } from './user/navigation-user/navigation-user.
     CommonModule, 
     RouterOutlet,
     NavigationAdminComponent, 
-    NavigationUserComponent
+    BannerUserComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
