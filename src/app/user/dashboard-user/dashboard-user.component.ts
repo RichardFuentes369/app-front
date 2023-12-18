@@ -9,6 +9,9 @@ import { MatCardModule } from '@angular/material/card';
 
 import { BannerUserComponent } from '../banner-user/banner-user.component';
 import { SectionNavbarUserComponent } from '../section-navbar-user/section-navbar-user.component';
+import { MenuNavegacionUserComponent } from '../section-navegacion-user/section-navegacion-user.component';
+import { SectionNoticiasUserComponent } from '../section-noticias-user/section-noticias-user.component';
+import { SectionTramitesUserComponent } from '../section-tramites-user/section-tramites-user.component';
 
 @Component({
   selector: 'app-dashboard-user',
@@ -23,6 +26,9 @@ import { SectionNavbarUserComponent } from '../section-navbar-user/section-navba
     MatCardModule,
     BannerUserComponent,
     SectionNavbarUserComponent,
+    MenuNavegacionUserComponent,
+    SectionNoticiasUserComponent,
+    SectionTramitesUserComponent
   ]
 })
 export class DashboardUserComponent {
