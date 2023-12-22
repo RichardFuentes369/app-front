@@ -12,6 +12,7 @@ import { SectionNavbarUserComponent } from '../section-navbar-user/section-navba
 import { MenuNavegacionUserComponent } from '../section-navegacion-user/section-navegacion-user.component';
 import { SectionNoticiasUserComponent } from '../section-noticias-user/section-noticias-user.component';
 import { SectionTramitesUserComponent } from '../section-tramites-user/section-tramites-user.component';
+import { SectionRedesUserComponent } from '../section-redes-user/section-redes-user.component';
 
 @Component({
   selector: 'app-dashboard-user',
@@ -28,7 +29,8 @@ import { SectionTramitesUserComponent } from '../section-tramites-user/section-t
     SectionNavbarUserComponent,
     MenuNavegacionUserComponent,
     SectionNoticiasUserComponent,
-    SectionTramitesUserComponent
+    SectionTramitesUserComponent,
+    SectionRedesUserComponent
   ]
 })
 export class DashboardUserComponent {
