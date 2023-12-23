@@ -13,6 +13,7 @@ import { MenuNavegacionUserComponent } from '../section-navegacion-user/section-
 import { SectionNoticiasUserComponent } from '../section-noticias-user/section-noticias-user.component';
 import { SectionTramitesUserComponent } from '../section-tramites-user/section-tramites-user.component';
 import { SectionRedesUserComponent } from '../section-redes-user/section-redes-user.component';
+import { SectionFooterUserComponent } from '../section-footer-user/section-footer-user.component';
 
 @Component({
   selector: 'app-dashboard-user',
@@ -30,7 +31,8 @@ import { SectionRedesUserComponent } from '../section-redes-user/section-redes-u
     MenuNavegacionUserComponent,
     SectionNoticiasUserComponent,
     SectionTramitesUserComponent,
-    SectionRedesUserComponent
+    SectionRedesUserComponent,
+    SectionFooterUserComponent
   ]
 })
 export class DashboardUserComponent {
